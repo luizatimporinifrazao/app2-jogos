@@ -1,0 +1,88 @@
+// ===============================
+// ETAPA 3 - CADASTRO DOS JOGOS
+// ===============================
+
+export const jogos = [
+    {
+        id: "1",
+        nome: "Minecraft",
+        genero: "Sandbox",
+        nota: 4.8,
+        plataforma: "PC, Console, Mobile",
+        Descrição: "Um mundo feito de blocos onde você pode contruir",
+        imagem: require("../../assets/games/minecraft.jpg"),
+        destaque: true,
+    },
+    {
+        id: "2",
+        nome: "Resident Evil",
+        genero: "terror",
+        nota: 4.5,
+        plataforma: "PC, Console, Mobile",
+        Descrição: "gira em torno de conspirações corporativas",
+        imagem: require("../../assets/games/ResidentEvil.jpg"),
+        destaque: true,
+    },
+    {
+        id: "3",
+        nome: "Habromania",
+        genero: "aventura",
+        nota: 4.3,
+        plataforma: "PC, Console, Mobile",
+        Descrição: " é um jogo de aventura indie do tipo aponte e clique (point and click) e RPG narrativo com elementos de terror psicológico, inspirado livremente na história de Alice no País das Maravilhas",
+        imagem: require("../../assets/games/Habromania.jpg"),
+        destaque: true,
+    },
+    {
+        id: "4",
+        nome: "Call of Duty",
+        genero: "ação",
+        nota: 4.6,
+        plataforma: "PC, Console, Mobile",
+        Descrição: "Jogo de guerra",
+        imagem: require("../../assets/games/CallofDuty.jpg"),
+        destaque: true,
+    },
+    {
+        id: "5",
+        nome: "Five Nigth's at Freddy's ",
+        genero: "terror",
+        nota: 4.4,
+        plataforma: "PC, Console, Mobile",
+        Descrição: "passe 5 noites en una pizzaria",
+        imagem: require("../../assets/games/fnaf.jpg"),
+        destaque: false,
+    },
+    {
+        id: "6",
+        nome: "Plantas Vs Zumbies",
+        genero: "aventura",
+        nota: 4.7,
+        plataforma: "PC, Console, Mobile",
+        Descrição: "proteja sua casa doz zumbis!",
+        imagem: require("../../assets/games/plantasvszumbis.jpg"),
+        destaque: false,
+    },
+    {
+        id: "7",
+        nome: "The Sims",
+        genero: "Simulação",
+        nota: 4.2,
+        plataforma: "PC, Console, Mobile",
+        Descrição: "Simulador de vida real",
+        imagem: require("../../assets/games/the-sims.jpg"),
+        destaque: false,
+    },
+    {
+        id: "8",
+        nome: "Among Us",
+        genero: "Detetive",
+        nota: 4.1,
+        plataforma: "PC, Console, Mobile",
+        Descrição: "Descubra quem é o impostor",
+        imagem: require("../../assets/games/among-us.jpg"),
+        destaque: false,
+    },
+    
+]
+// VAMOS PARA ETAPA 4 - CRIAR O ARQUIVO GameCard.js COM OS DADOS DOS JOGOS
